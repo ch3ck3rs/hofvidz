@@ -3,7 +3,11 @@
 
 <div class="container">
     you are on the dashboard!
-    {{user.username}}
+    <br />
+    <br />
+    <div class="container">
+        <a href="{% url 'create_hall' %}" class="btn btn-outline-primary">Create a Hall</a>
+    </div>
 </div>
 
 {% endblock %}
